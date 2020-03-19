@@ -9,6 +9,10 @@ body {
   font-family: "ryou-gothic";
   src: url("./assets/fonts/RyoGothicPlusN-Bold.otf") format("opentype");
 }
+@font-face {
+  font-family: "brandon-grotesque-bold";
+  src: url("./assets/fonts/brandon-grotesque-bold.otf") format("opentype");
+}
 #hero {
   width: 100vw;
   height: 95vh;
@@ -42,7 +46,7 @@ section {
 .title {
   margin: 15vh auto 0;
   color: #c1251f;
-  font-family: "ryou-gothic";
+  font-family: "brandon-grotesque-bold";
   font-size: 3em;
   text-align: center;
 }
