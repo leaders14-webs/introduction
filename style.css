@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fef1e5;
+}
+@font-face {
+  font-family: "ryou-gothic";
+  src: url("./assets/fonts/RyoGothicPlusN-Bold.otf") format("opentype");
+}
+#hero {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1251f;
+}
+
+#hero > .icon {
+  background-image: url(assets/images/main_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 95%;
+  height: 95%;
+}
+
+#about {
+  margin-top: 50px;
+}
+
+.title {
+  margin: 200px auto 0;
+  color: #c1251f;
+  font-family: "ryou-gothic";
+  font-size: 3em;
+  text-align: center;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  background: #671116;
+  height: 5px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 5px auto 0;
+}
+
+.main_description {
+  margin: 60px auto 0 auto;
+  color: #671116;
+  font-family: "ryou-gothic";
+  font-size: 0.8em;
+  text-align: center;
+  width: 60%;
+}
+.sub_description {
+  margin: 16px auto 140px auto;
+  color: #671116;
+  font-family: "ryou-gothic";
+  font-size: 0.8em;
+  text-align: center;
+  width: 40%;
+}
+
+#about > .sample_project {
+  display: flex;
+  width: 70%;
+  margin: 140px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sample_project > .video {
+  min-width: 200px;
+  width: 50%;
+  border-radius: 2px;
+}
+#about > .sample_project > .description {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  min-width: 200px;
+}
+.project_title {
+  color: #671116;
+  width: 100%;
+  display: block;
+  font-family: "ryou-gothic";
+  font-size: 1.2em;
+}
+
+.project_description {
+  color: #671116;
+  font-size: 0.8em;
+  font-family: "ryou-gothic";
+  margin-top: 10px;
+}
+
+.v_line {
+  margin: auto 12px auto 0;
+  background: #671116;
+  border: 2px solid #671116;
+  border-radius: 8px;
+  height: 0.9em;
+}
+
+.tech_img {
+  width: 40%;
+  margin: 10px auto;
+  display: block;
+}
+
+.instructor_wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.instructor_box {
+  text-align: center;
+  width: 35%;
+  padding: 5%;
+  min-width: 200px;
+}
+
+.instructor_box > img {
+  width: 80%;
+}
+.instructor_name {
+  margin: 16px auto 0 auto;
+  color: #671116;
+  font-family: "ryou-gothic";
+  font-size: 1.8em;
+  text-align: center;
+}
+.instructor_gene {
+  margin: -12px auto 20px auto;
+  color: #671116;
+  font-family: "ryou-gothic";
+  font-size: 0.9em;
+  text-align: center;
+}
+.instructor_word {
+  margin: 16px auto 100px auto;
+  color: #671116;
+  font-family: "ryou-gothic";
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+  body {
+    line-height: 2;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .main_description {
+    font-size: 0.5rem;
+    margin-top: 28px;
+  }
+  #about > .sample_project > .description {
+    width: 52%;
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .project_title {
+    font-size: 0.8rem;
+  }
+  .project_description {
+    font-size: 0.5rem;
+  }
+  .sub_description {
+    font-size: 0.5rem;
+  }
+  #hero > .icon {
+    background-image: url(assets/images/sp-alpha.png);
+  }
+}
