@@ -176,28 +176,69 @@ section {
   body {
     line-height: 2;
   }
+  section{
+    margin-bottom: 25vh
+  }
   .title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .main_description {
-    font-size: 0.5rem;
-    margin-top: 28px;
+    font-size: 1rem;
+    margin-top: 10vh;
+    width: 80vw;
   }
   #about > .sample_project > .description {
-    width: 52%;
+    width: 80vw;
     margin-left: 0;
-    margin-top: 12px;
+    margin-top: 5vh;
+  }
+
+  .sample_project > .video{
+    width: 80vw;
   }
   .project_title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .project_description {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .sub_description {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    width: 80vw;
   }
   #hero > .icon {
     background-image: url(assets/images/sp-alpha.png);
   }
+  .tech_img{
+    margin: 15vh auto 5vh;
+  }
+  .docker{
+    width: 100vw;
+  }
+  .wall{
+    width: 70vw !important;
+  }
+  .community{
+    width: 80vw !important;
+  }
+  .tech{
+    width: 90vw !important;
+  }
+
+  .instructor_box {
+    width: 80vw;
+  }
+
+  .instructor_box > img {
+    width: 50vw;
+  }
+
+  .instructor_word {
+    width: 100%
+  }
+
+  #instructor{
+    margin-bottom: 10vh
+  }
+
 }
