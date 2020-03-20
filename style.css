@@ -13,6 +13,24 @@ body {
   font-family: "brandon-grotesque-bold";
   src: url("./assets/fonts/brandon-grotesque-bold.otf") format("opentype");
 }
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #671116;
+  z-index: 1000;
+}
+.lottie {
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+  display: block;
+}
 #hero {
   width: 100vw;
   height: 95vh;
@@ -176,8 +194,8 @@ section {
   body {
     line-height: 2;
   }
-  section{
-    margin-bottom: 25vh
+  section {
+    margin-bottom: 25vh;
   }
   .title {
     font-size: 3rem;
@@ -193,7 +211,7 @@ section {
     margin-top: 5vh;
   }
 
-  .sample_project > .video{
+  .sample_project > .video {
     width: 80vw;
   }
   .project_title {
@@ -209,19 +227,19 @@ section {
   #hero > .icon {
     background-image: url(assets/images/sp-alpha.png);
   }
-  .tech_img{
+  .tech_img {
     margin: 15vh auto 5vh;
   }
-  .docker{
+  .docker {
     width: 100vw;
   }
-  .wall{
+  .wall {
     width: 70vw !important;
   }
-  .community{
+  .community {
     width: 80vw !important;
   }
-  .tech{
+  .tech {
     width: 90vw !important;
   }
 
@@ -234,11 +252,10 @@ section {
   }
 
   .instructor_word {
-    width: 100%
+    width: 100%;
   }
 
-  #instructor{
-    margin-bottom: 10vh
+  #instructor {
+    margin-bottom: 10vh;
   }
-
 }
