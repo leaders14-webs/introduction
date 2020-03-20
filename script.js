@@ -1,7 +1,7 @@
 $("#main").css("display", "none");
 $(function() {
   const effect_pos = 100; // 画面下からどの位置でフェードさせるか(px)
-  const effect_move = 120; // どのぐらい要素を動かすか(px)
+  const effect_move = 100; // どのぐらい要素を動かすか(px)
   const effect_time = 1200;
 
   stopLoading();
