@@ -23,11 +23,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #671116;
+  background-color: #c1251f;
   z-index: 1000;
 }
 .lottie {
-  width: 100%;
+  width: 50vw;
+  margin: 50% auto;
   transform: translate3d(0, 0, 0);
   display: block;
 }
