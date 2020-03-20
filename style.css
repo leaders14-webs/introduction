@@ -185,16 +185,24 @@ section {
   .main_description {
     font-size: 1rem;
     margin-top: 10vh;
-    width: 80vw;
+    width: 90vw;
+  }
+  #about > .sample_project {
+    display: flex;
+    width: 90vw;
+    margin: 20vh auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   #about > .sample_project > .description {
-    width: 80vw;
+    width: 90vw;
     margin-left: 0;
     margin-top: 5vh;
   }
 
   .sample_project > .video{
-    width: 80vw;
+    width: 95vw;
   }
   .project_title {
     font-size: 1rem;
@@ -204,7 +212,7 @@ section {
   }
   .sub_description {
     font-size: 0.8rem;
-    width: 80vw;
+    width: 90vw;
   }
   #hero > .icon {
     background-image: url(assets/images/sp-alpha.png);
@@ -216,17 +224,21 @@ section {
     width: 100vw;
   }
   .wall{
-    width: 70vw !important;
+    width: 75vw !important;
   }
   .community{
-    width: 80vw !important;
+    width: 70vw !important;
   }
   .tech{
-    width: 90vw !important;
+    width: 100vw !important;
+    margin-top: 3vh;
+  }
+  .instructor_wrapper {
+    width: 90vw;
   }
 
   .instructor_box {
-    width: 80vw;
+    width: 90vw;
   }
 
   .instructor_box > img {
