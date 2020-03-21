@@ -31,6 +31,7 @@ body {
   margin: 50% auto;
   transform: translate3d(0, 0, 0);
   display: block;
+  text-align: center;
 }
 #hero {
   width: 100vw;
@@ -198,7 +199,7 @@ section {
   section {
     margin-bottom: 25vh;
   }
-  .lottie{
+  .lottie {
     width: 100vw;
   }
   .title {

@@ -4,7 +4,6 @@ $(function() {
   const effect_move = 100; // どのぐらい要素を動かすか(px)
   const effect_time = 1200;
 
-  stopLoading();
   $(".scroll-fade").css({
     opacity: 0,
     transform: "translateY(" + effect_move + "px)",
@@ -25,6 +24,10 @@ $(function() {
     });
   });
 });
+
+window.onload = () => {
+  stopLoading();
+};
 
 function stopLoading() {
   $("#main").css("display", "block");
