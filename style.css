@@ -198,6 +198,9 @@ section {
   section {
     margin-bottom: 25vh;
   }
+  .lottie{
+    width: 100vw;
+  }
   .title {
     font-size: 3rem;
   }
