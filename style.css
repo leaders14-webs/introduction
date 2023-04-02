@@ -35,7 +35,8 @@ body {
 }
 #hero {
   width: 100vw;
-  height: 95vh;
+  height: 90vh;
+  max-width: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,14 +50,12 @@ body {
   background-size: contain;
   width: 95%;
   height: 95%;
+  max-width: 1080px;
 }
 
 section {
-  margin-bottom: 40vh;
-}
-
-#about {
-  margin-top: -10vh;
+  max-width: 1080px;
+  margin: 0 auto 200px auto;
 }
 
 #instructor {
@@ -69,20 +68,21 @@ section {
   font-family: "brandon-grotesque-bold";
   font-size: 3em;
   text-align: center;
+  margin:0 auto;
 }
 
 .title::after {
   content: "";
   display: block;
   background: #671116;
-  height: 5px;
   width: 120px;
+  height: 5px;
   border-radius: 10px;
   margin: 0.5vh auto 0;
 }
 
 .main_description {
-  margin: 15vh auto 0 auto;
+  margin: 50px auto 0 auto;
   color: #671116;
   font-family: "ryou-gothic";
   font-size: 1em;
@@ -98,13 +98,21 @@ section {
   width: 40%;
 }
 
-#about > .sample_project {
+#about > .sample_projects {
+  margin-top: 80px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.sample_project {
   width: 70%;
-  margin: 20vh auto;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 5%;
 }
 
 .sample_project > .video {
@@ -112,12 +120,11 @@ section {
   width: 50%;
   border-radius: 2px;
 }
-#about > .sample_project > .description {
+.sample_project > .description {
   width: 45%;
   display: flex;
   align-items: center;
   justify-content: left;
-  margin-left: 5%;
   flex-wrap: wrap;
   min-width: 200px;
 }
@@ -129,14 +136,8 @@ section {
   font-size: 1em;
 }
 
-.project_description {
-  color: #671116;
-  font-size: 0.8em;
-  font-family: "ryou-gothic";
-  margin-top: 2vh;
-}
-
-.v_line {
+.project_title::before {
+  content: "";
   margin: auto 12px auto 0;
   background: #671116;
   border: 2px solid #671116;
@@ -144,9 +145,16 @@ section {
   height: 0.9em;
 }
 
+.project_description {
+  color: #671116;
+  font-size: 0.8em;
+  font-family: "ryou-gothic";
+  margin-top: 2vh;
+}
+
 .tech_img {
   width: 50%;
-  margin: 15vh auto 5vh;
+  margin: 80px auto 0 auto;
   display: block;
 }
 
@@ -157,7 +165,7 @@ section {
   align-items: center;
   margin: 0 auto;
   flex-wrap: wrap;
-  margin-top: 8vh;
+  margin-top: 80px;
 }
 
 .instructor_box {
