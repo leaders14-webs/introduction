@@ -245,10 +245,17 @@ footer {
     width: 95vw;
   }
   .project_title {
+    margin-top: 15px;
+    text-align: center;
     font-size: 1rem;
   }
+  .project_title::before {
+    content: none;
+  }
   .project_description {
+    margin-top: 5px;
     font-size: 0.8rem;
+    text-align: center;
   }
   .sub_description {
     font-size: 0.8rem;
